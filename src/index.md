@@ -1,5 +1,5 @@
 ---
-home: false
+home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: PageWatch api documentation
 actionText: Quick Start →

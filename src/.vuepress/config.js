@@ -30,6 +30,7 @@ module.exports = {
     logo: '/assets/img/logo-square.png',
     repo: '',
     editLinks: false,
+    homePage: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
@@ -56,6 +57,7 @@ module.exports = {
           title: 'Integrations',
           collapsable: false,
           children: [
+            'api',
             'github',
             'netlify',
           ]
