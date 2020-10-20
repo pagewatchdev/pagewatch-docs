@@ -22,7 +22,7 @@ Our [Netlify build plugin](https://github.com/pagewatchdev/netlify-build-plugin-
 
 3. Grab your [PageWatch Api Key](https://docs.pagewatch.dev/guide/api.html) and store it as the `PAGEWATCH_SITE_KEY` environment variable in your [Netlify build settings](https://docs.netlify.com/configure-builds/environment-variables/).
 
-![Netlify environment variable setup](https://docs.pagewatch.dev/assets/img/netlify-env-variables.b197857b.png)
+![Netlify environment variable setup](https://docs.pagewatch.dev/assets/img/netlify-env-variables.png)
 
 That is it, now a PageWatch audit will be automatically run whenever you create a production build. 
 
