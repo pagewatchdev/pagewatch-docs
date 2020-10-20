@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://pagewatch.dev/assets/img/issues-475x422.png
 tagline: PageWatch api documentation
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature a1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by PageWatch with ❤️
+- title: Zero Config Front-End Testing
+  details: Find website issues before any of your users do.
+- title: Continuous Integration
+  details: Test your site as you develop
+- title: API Support
+  details: Run tests automatically from your build tools
+footer: Made by PageWatch
 ---

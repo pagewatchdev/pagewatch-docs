@@ -4412,6 +4412,12 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
 
+netlify-build-plugin-pagewatch@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/netlify-build-plugin-pagewatch/-/netlify-build-plugin-pagewatch-1.0.1.tgz#9e7601a1e7c3a476739241f0ad6b4daf0bc10632"
+  dependencies:
+    node-fetch "^2.6.1"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -4421,6 +4427,10 @@ no-case@^2.2.0:
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
   dependencies:
     lower-case "^1.1.1"
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
 
 node-forge@^0.10.0:
   version "0.10.0"

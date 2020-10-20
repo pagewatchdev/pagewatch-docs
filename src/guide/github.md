@@ -10,8 +10,21 @@ You can run PageWatch as part of your continuous integration process.  On every 
 
 ### 1: Install the GitHub app 
 
-Install the GitHub app from your account at [https://app.pagewatch.dev/admin/admin/integrations](https://app.pagewatch.dev/admin/admin/integrations)
+[Install the GitHub app from your account](https://app.pagewatch.dev/admin/admin/integrations)
 
-### 2: Use the CLI to run the audit and report results
+Make sure you give the app permissions to the relevant repository.
 
-This is done automatically if you use the Netlify integration.
+### 2: Use the API to run the audit and report results
+::: tip
+This works automatically if you make use of the [Netlify plugin.](https://docs.pagewatch.dev/guide/netlify.html)
+:::
+
+To report the details to an pull request run, you have to include the following fields when running an audit from the API
+
+```
+commit_hash,  // the git ref for the build
+repo_url,  // the full github repo url
+pull_request: true  // specify that this build was started from a pull request
+```
+
+See the [api documentation](https://docs.pagewatch.dev/guide/api.html) for detailed information.

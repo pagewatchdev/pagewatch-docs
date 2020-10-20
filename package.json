@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "netlify-build-plugin-pagewatch": "^1.0.1"
   }
 }
