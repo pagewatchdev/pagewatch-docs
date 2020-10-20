@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         text: 'PageWatch',
-        link: 'https://app.pagewatch.dev'
+        link: 'https://pagewatch.dev'
       }
     ],
     sidebar: {
